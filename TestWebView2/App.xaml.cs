@@ -12,10 +12,13 @@ public partial class App : Application
     private void App_OnStartup(object sender, StartupEventArgs e)
     {
         Application.Current.MainWindow = new MainWindow();
-        LoginWindow loginWindow = new LoginWindow();
-        if (loginWindow.ShowDialog() == true)
+        if (new LoginWindow().ShowDialog() == true)
         {
             Application.Current.MainWindow.Show();
+        }
+        else
+        {
+            Environment.Exit(0);
         }
     }
 }
