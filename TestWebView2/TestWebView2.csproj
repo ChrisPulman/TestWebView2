@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="CrissCross.WPF.UI" Version="2.0.2" />
+      <PackageReference Include="CrissCross.WPF.UI" Version="4.1.0" />
       <PackageReference Include="CrissCross.WPF.WebView2" Version="2.0.2" />
     </ItemGroup>
 
